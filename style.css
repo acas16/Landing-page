@@ -84,12 +84,14 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 80px;
 }
 
 .info-header{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-bottom: 40px;
 }
 
 .info-image{
@@ -105,5 +107,13 @@ a{
 }
 
 .image-text{
-    
+    width:120px;
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.box1, .box2, .box3, .box4{
+    margin-left: 20px;
+    margin-right: 20px;
 }
