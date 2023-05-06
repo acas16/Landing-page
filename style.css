@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body{
     display: flex;
     flex-direction: column;
@@ -116,4 +118,30 @@ a{
 .box1, .box2, .box3, .box4{
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 650px;
+    font-family: "Roboto";
+}
+
+.quote-credit{
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Roboto";
+    align-items: end;
+    margin-left: 420px;
 }
