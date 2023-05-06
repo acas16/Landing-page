@@ -145,3 +145,50 @@ a{
     align-items: end;
     margin-left: 420px;
 }
+
+.action{
+    display: flex;
+    background-color: #3882F6;
+    border: 1px;
+    border-radius: 16px;
+    margin: 80px;
+    padding: 30px;
+}
+
+.action-text{
+    font-family: Roboto, sans-serfif;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.sign-up-text{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.action-button{
+    display: flex;
+    color: white;
+    border: 2px solid #F9FAF8;
+    background-color:#3882F6;
+    border-radius: 8px;
+    font-weight: 700;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding: 35px;
+    font-family: roboto, sans-serif;
+}
